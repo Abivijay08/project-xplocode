@@ -1,0 +1,146 @@
+```css
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.5),
+                rgba(0,0,0,0.5)),
+                url('https://images.unsplash.com/photo-1504674900247-0877df9cc836');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1{
+    font-size: 60px;
+}
+
+.hero p{
+    font-size: 22px;
+}
+
+.food-card{
+    transition: 0.3s;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.food-card:hover{
+    transform: translateY(-10px);
+}
+
+.food-card img{
+    height: 250px;
+    object-fit: cover;
+}
+
+.card{
+    border-radius: 15px;
+}
+
+.btn{
+    border-radius: 25px;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+.navbar-brand{
+    font-size: 28px;
+}
+
+.nav-link{
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.nav-link:hover{
+    color: #ffc107 !important;
+}
+
+.shadow{
+    transition: 0.3s;
+}
+
+.shadow:hover{
+    transform: scale(1.03);
+}
+
+.contact-form{
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.review-card{
+    transition: 0.3s;
+}
+
+.review-card:hover{
+    transform: translateY(-5px);
+}
+
+.cart-item{
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.about-section{
+    padding: 60px 0;
+}
+
+.feature-box{
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.feature-box:hover{
+    transform: translateY(-8px);
+}
+
+.menu-header{
+    background-color: #ff5722;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.review-header{
+    background-color: #2196f3;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-header{
+    background-color: #28a745;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-header{
+    background-color: #6f42c1;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cart-header{
+    background-color: #343a40;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+```
